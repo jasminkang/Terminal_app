@@ -1,28 +1,32 @@
 require 'tty-prompt'
 require_relative './lib/animal_class'
 
-prompt = TTY::Prompt.new
+def run_multi_choice
+  prompt = TTY::Prompt.new
 
-index = 0
-score = 0
+  index = 0
+  score = 0
 
-animal = Animal.new
+  animal = Animal.new
 
-while index < 20
+  while index < 20
 
-  choices = data_hash['animals'][index]['answerchoices'][0]
+    choices = data_hash['animals'][index]['answerchoices'][0]
 
-  question_answer = prompt.select('Who am I?' + animal.profile_from_index(index).to_s, choices)
+    question_answer = prompt.select('Who am I?' + animal.profile_from_index(index).to_s, choices)
 
-  answer_point = question_answer.to_i == index
+    answer_point = question_answer.to_i == index
 
-  index += 1
-  # get rid of nested
+    index += 1
+    # get rid of nested
+  end
+
+  # if answer_point == true
+
+  puts 'You got ' + score.to_s + '/20'
 end
 
-# if answer_point == true
-
-puts 'You got ' + score.to_s + '/20'
+run_multi_choice
 
 # def run_test(questions)
 #     answer = ""
