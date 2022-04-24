@@ -1,35 +1,28 @@
 require 'tty-prompt'
-require_relative '/Users/jasminkang/Documents/Terminal_app/src/lib/animal_class'
+require_relative './lib/animal_class'
 
 prompt = TTY::Prompt.new
-
 
 index = 0
 score = 0
 
+animal = Animal.new
 
-while index < 20 do
+while index < 20
 
   choices = data_hash['animals'][index]['answerchoices'][0]
 
-  QuestionAnswer = prompt.select('Who am I?' + Animal.new.profile_from_index(index).to_s, choices)
+  question_answer = prompt.select('Who am I?' + animal.profile_from_index(index).to_s, choices)
 
-  answer_point = QuestionAnswer.to_i == index
+  answer_point = question_answer.to_i == index
 
   index += 1
-
-  if answer_point == true
-    score +=1
-  else answer_point == false
-    score += 0
-  end
+  # get rid of nested
 end
-  puts "You got " + "#{score}" + "/20"
 
+# if answer_point == true
 
-
-
-
+puts 'You got ' + score.to_s + '/20'
 
 # def run_test(questions)
 #     answer = ""
@@ -45,7 +38,6 @@ end
 # p1 = "Who am I?"+"cat description\n(a)frog\n(b)bat\n(c)cat"
 # p2 = "Who am I?"+"bat description\n(a)frog\n(b)bat\n(c)cat"
 # p3 = "Who am I?"+"frog description\n(a)frog\n(b)bat\n(c)cat"
-
 
 # def run_test(questions)
 #     answer = ""
