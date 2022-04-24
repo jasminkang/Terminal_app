@@ -1,0 +1,104 @@
+{
+  "animals": [
+    {
+      "name": "cat",
+      "description": "Although people think Im cold, I demand unequivocal love and attention from the humans I love. Treat me well and be rewarded with affection. Despite popular belief I CAN be trained and I love playtime! I only have one life so be kind to me, because if you arent I will never forget it. The sounds I make have the ability to help heal me when Im injured, and even help your human healing. Some other sounds I make are just for you, humans, leftover from when we were babies to get our mums attention.",
+      "answerchoices": [{ "cat": "0", "rat": "1", "wolf": "1" }]
+    },
+    {
+      "name": "shark",
+      "description": "People think I want to eat them, but they’re a bit too hard to digest for my liking. The flu is more dangerous to you humans! Some of us are even vegetarian. Some of us (zebra types) can have virgin births. We have been around since a time before dinosaurs. Like many animals, I only go near humans because you won’t get out of my (way bigger than yours) home.",
+      "answerchoices": [{ "piranha": "0", "shark": "1", "wolf": "0" }]
+    },
+    {
+      "name": "spider",
+      "description": "We aren’t always nearby, and despite popular belief we do not crawl into your mouths at night. People are scared of us, but we are (rightly) much more scared of you than you. Provoke me and maybe you’ll see my fangs, but most likely I just run away. Of over 46,000 of my cousins, only about 30 of us are of danger to you. Our ‘blood’ (which is technically hemolymph) is a beautiful green/blue colour.",
+      "answerchoices": [{ "cockroach": "0", "rat": "0", "spider": "2" }]
+    },
+    {
+      "name": "snake",
+      "description": "Evolution has taught your babies to be afraid of us, but generally we are no harm at all (just don’t let your baby play with us). Our babies come from eggs we lay or straight from our bodies. My venom has created life-saving drugs, AND I am great rodent pest control. You respect my space, and I will most likely respect yours.",
+      "answerchoices": [{ "spider": "0", "snake": "3", "vulture": "0" }]
+    },
+    {
+      "name": "bird",
+      "description": "Known as modern day dinosaurs, we don’t get enough credit. When that asteroid struck earth 70 million years ago, we were among the only survivors. I have cousins who you know and love, as a primary protein source at least. We can get around in ways humans only dream of, which is probably why so many humans are scared of us.",
+      "answerchoices": [{ "shark": "0", "bird": "4", "piranha": "0" }]
+    },
+    {
+      "name": "maggot",
+      "description": "When we are babies, we are of great medical use to you. Dead flesh needs to be cleared from a wound? No worries, we got it. Butterflies get all the credit for metamorphosis but we also become different creatures when we mature. That said, if we appear in your home, best not eat whatever we’ve shown up in.",
+      "answerchoices": [{ "maggot": "5", "cockroach": "0", "spider": "0" }]
+    },
+    {
+      "name": "bat",
+      "description": "We may be associated with Vampires, but most of us prefer fruit or insects over blood! We have over 1,400 cousin families, with only 3 who drink blood. That’s okay though, we like to be left alone. With significant diversity among us, we are crucial to the ecosystem and key to the survival of crops you use for food and medicine. Do you eat bananas or avocados, maybe mangoes? You’re welcome! In Australia, we might just be the most efficient pollinators you have.",
+      "answerchoices": [{ "wasp": "0", "birds": "0", "bat": "6" }]
+    },
+    {
+      "name": "wasp",
+      "description": "We are some of the best pest controllers, we regulate bugs, spiders roaches and flies. 150 years ago, there was experiment where all my kind on a Sirs estate were murdered. What happened? A huge fly infestation! We may not make honey, but we also deserve protection.",
+      "answerchoices": [{ "bat": "0", "pigeon": "0", "wasp": "7" }]
+    },
+    {
+      "name": "hyena",
+      "description": "Our famous cackle gives us a bad reputation. But don’t you like to laugh with your friends?",
+      "answerchoices": [{ "cat": "0", "vulture": "0", "hyena": "8" }]
+    },
+    {
+      "name": "pig",
+      "description": "Known for being dirty, we are actually very clean – we would never poop where we eat or live. You judge us because we use mud to cool ourselves down even though it is more eco friendly than aircon. We are playful, friendly, sensitive and known for our intelligence which is higher than most human 3 year olds. We are social and can tell humans we have met apart. We have even been known to save human and other animals lives. We live in a matriarchy with mothers who love us dearly. ",
+      "answerchoices": [{ "pig": "9", "skunk": "0", "rat": "0" }]
+    },
+    {
+      "name": "wolf",
+      "description": "I am the ancestor to man’s best friend. Although I seem mean in fairytales, your best buds have been responsible for many more deaths than me! Although people think we have alphas, beta and omegas among us, that is not true when we don’t live in captivity. In reality, it’s just the parent and the babies, with the parents in charge ( for most of us).",
+      "answerchoices": [{ "bull": "0", "cat": "0", "wolf": "10" }]
+    },
+    {
+      "name": "vulture",
+      "description": "Humans associate us with the dead, which is generally not a favourable association. But those who know us refer to us as ‘nature’s cleanup crew’. We are scavengers who clean up (mostly) your mess. Roadkill you don’t want to deal with? We are here to help. We take everything except the bones, which minimises the spread of diseases. When you go, if you don’t want to harm the environment with cremation or take up valuable ground space with a grave, we are the crew for you.",
+      "answerchoices": [{ "vulture": "11", "piranha": "0", "bat": "0" }]
+    },
+    {
+      "name": "cockroach",
+      "description": "Some of us are definitely household pests, but most of us aren’t! Lots of us prefer forests, caves or burrows over your home. We are excellent organic waste collectors, but yes this means we can carry diseases while we do our thing. We ‘breathe’ through our body and not our heads, so we can survive without them. That said we absolutely could not survive a nuclear explosion. We can survive more radiation than humans, but we are not indestructible.",
+      "answerchoices": [{ "wasp": "0", "maggot": "0", "cockroach": "12" }]
+    },
+    {
+      "name": "rat",
+      "description": "People associate me with the plague (but that was actually the fleas). We are actually (arguably) very cute, with some similarities to humans! We make great pets, because we are social, friendly and family-oriented (we take care of our elderly and sick together). Not only that, we are clean, playful and known for our smarts. We are actually similar to humans in many ways, which is why science likes to test our bodies to learn about yours.",
+      "answerchoices": [{ "pigeon": "0", "skunk": "0", "rat": "13" }]
+    },
+    {
+      "name": "skunk",
+      "description": "Okay, we smell. But that’s only if you don’t heed our warnings to leave us alone! Stamping and hissing is a good sign for you to get away before we get our smell all over you. And it takes us 10 days to recover when we do spray so it leaves us defenseless. That’s a big cost! If you leave me alone, and let me take care of the pests which damage your vegetables and flowers, you’ll see we are not so bad or stinky.",
+      "answerchoices": [{ "rat": "0", "skunk": "14", "cockroach": "0" }]
+    },
+    {
+      "name": "orca",
+      "description": "There is no reason for humans to dislike us. If you are a seal, it would make more sense. But we are not a threat to you, and you’re such a big fan of our cousins! Like so many of the creatures who live where I live, if you leave us alone we will leave you alone. Yes there have been accidents when we live in captivity, but what would you do if you were ripped from your family? We don’t move out like humans to live alone, we spend our whole lives together, caring for the young and sick as a team. We are very social and so intelligent, our brains have emotional centres developed way beyond humans. We are endangered and deserve human understanding and assistance.",
+      "answerchoices": [{ "orca": "15", "shark": "0", "piranha": "0" }]
+    },
+    {
+      "name": "pigeon",
+      "description": "We are known as ‘rats of the sky’, but if you’d met a rat, you’d know that’s actually quite the compliment. We are family oriented, mate for life and our fathers contribute equally to our rearing even feeding us a kind of ‘milk’. We thrive in man-made environments so we can be found just about everywhere. We are so smart that your governments and militaries have used us to help espionage efforts and as messengers. Contrary to popular opinion, eating rice won’t make us explode, it will just waste your rice, so throw it all you want.",
+      "answerchoices": [{ "pigeon": "16", "cockroach": "0", "rat": "0" }]
+    },
+    {
+      "name": "piranha",
+      "description": "We have lots of teeth and a strong bite, but we only aim them towards humans if they are already dead or dying. Okay, or if there is no other food or resources around. But that’s not our fault (it’s usually yours). Some of us are carnivorous, but some of us prefer a vegetarian diet, or seeds over meat. We travel in packs but it’s more to keep us safe than to terrorize you with our numbers. Hollywood likes to portray as us villains, but we have been around for millions of years and most people who come swim with us remain unharmed.",
+      "answerchoices": [{ "hyena": "0", "shark": "0", "piranha": "17" }]
+    },
+    {
+      "name": "frog",
+      "description": "No matter how many times you kiss me I won’t turn into a prince. But some of us secrete toxins from our skin, so make sure you know who you’re kissing before you try. I regularly exfoliate, shedding my skin about once a week, and the bumps you often see on our skin is actually glands. They are not warts, and we do not have the power to give you warts (only viruses can do that). I am beautiful but best left in my naturally environment and not kept as a pet.",
+      "answerchoices": [{ "frog": "18", "rat": "0", "snake": "0" }]
+    },
+    {
+      "name": "bull",
+      "description": "We are not violent, we are just sometimes trapped and used for your entertainment. Like modern day gladiators, we are forced into battle. Although the practice is slowly being outlawed, it still exists. There is no reason to be scared of wearing red around us, the association between red and our aggression is all human. Like humans, we have red blood, which is no coincidence. We are known to be aggressive, but it is when we haven’t been socialised among our own that we become especially aggressive. Like so many animals, we warn others with our posture before we attack.",
+      "answerchoices": [{ "orca": "0", "shark": "0", "bull": "19" }]
+    }
+  ]
+}
