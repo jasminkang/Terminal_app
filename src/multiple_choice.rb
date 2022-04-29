@@ -18,10 +18,14 @@ def run_multi_choice
     answer_point = question_answer.to_i == index
 
     index += 1
-    # get rid of nested
-  end
 
-  # if answer_point == true
+    if answer_point == true
+      score += 1
+    else
+      answer_point == false
+    end
+
+  end
 
   puts 'You got ' + score.to_s + '/20'
 end
