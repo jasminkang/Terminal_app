@@ -33,8 +33,9 @@ class Animal
   def index_given_profile(profile)
     data_hash.index(profile).to_i
   end
+
   def name_given_profile(profile)
-  index = index_given_profile(profile)
-  name_from_index(index)
+    index = index_given_profile(profile)
+    name_from_index(index)
   end
 end
