@@ -49,38 +49,3 @@ def run_trivia
 end
 
 run_trivia
-
-#     puts "##animal.index_given_profile(profile)"
-#     puts animal.index_given_profile(profile)
-#     puts animal.index_given_profile(profile).class
-
-#     puts "##animal.index_given_name(correct_animal_name))"
-#     puts animal.index_given_name(correct_animal_name)
-#     puts animal.index_given_name(correct_animal_name).class
-
-#   puts '## output index_given_name(question_answer.downcase)'
-#   puts animal.index_given_name(question_answer.downcase)
-#    puts animal.index_given_name(question_answer.downcase).class
-
-#    puts '## output question_answer'
-#   puts question_answer.downcase
-#    puts question_answer.downcase.class
-
-#    ##This reflects the same output as the question_answer
-#    puts "##correct_animal_name"
-#    puts correct_animal_name
-#    puts correct_animal_name.class
-
-# ## This is an integer
-#   puts '## index'
-#   puts index
-#    puts index.class
-
-#   #This was output as false with answer asdf"
-#    puts '## output correct_answer'
-#   puts correct_answer
-#   puts correct_answer.class
-
-#   #This is an integer
-#   puts attempts
-#    puts attempts.class

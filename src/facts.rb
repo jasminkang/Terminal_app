@@ -27,26 +27,3 @@ end
 loop do
   run_factsheet
 end
-
-# def run_test(questions)
-#     answer = ""
-#     score = 0
-#     for question in questions
-#         puts question.prompt
-#         answer = gets.chomp()
-#         if answer == question.answer
-#             score += 1
-#         end
-#     end
-
-# animaldisplay_index= AnimalDisplay.new
-
-# animaldisplay_index.name == data_hash['animals'][index]['name']
-# animaldisplay_index.info == data_hash['animals'][index]['description'
-
-#     index  == 0
-#         return animaldisplay[index].name == "cat"
-#     end
-# end
-
-# end
