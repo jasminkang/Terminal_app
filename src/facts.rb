@@ -22,6 +22,15 @@ def run_factsheet
   puts 'About me a ' + name_given_index.to_s
 
   puts info_given_index
+
+      next_question = prompt.yes?('Want another fact?')
+
+  if next_question
+    run_factsheet
+  else
+    require_relative 'main'
+    main_menu
+  end
 end
 
 loop do

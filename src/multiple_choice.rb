@@ -28,37 +28,9 @@ def run_multi_choice
   end
 
   puts 'You got ' + score.to_s + '/20'
+
+  require_relative 'main'
+  main_menu
 end
 
 run_multi_choice
-
-# def run_test(questions)
-#     answer = ""
-#     score = 0
-#     for question in questions
-#         puts question.prompt
-#         answer = gets.chomp()
-#         if answer == question.answer
-#             score += 1
-#         end
-#     end
-
-# p1 = "Who am I?"+"cat description\n(a)frog\n(b)bat\n(c)cat"
-# p2 = "Who am I?"+"bat description\n(a)frog\n(b)bat\n(c)cat"
-# p3 = "Who am I?"+"frog description\n(a)frog\n(b)bat\n(c)cat"
-
-# def run_test(questions)
-#     answer = ""
-#     score = 0
-#     for question in questions
-#         puts question.prompt
-#         answer = gets.chomp()
-#         if answer == question.answer
-#             score += 1
-#         end
-#     end
-
-#     puts ("Your score is" + "#{score}".to_s+"/"+ "#{questions.length().to_s}")
-# end
-
-# run_test(questions)

@@ -11,11 +11,13 @@ def main_menu
   when 1
     require_relative 'facts'
     run_factsheet
-      when 2
+  when 2
     require_relative 'trivia'
-    run_trivia  when 3
+    run_trivia
+  when 3
     require_relative 'multiple_choice'
     run_multi_choice
+
   end
 end
 

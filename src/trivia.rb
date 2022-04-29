@@ -4,7 +4,6 @@ require_relative './lib/animal_class'
 def run_trivia
   prompt = TTY::Prompt.new
   index = 0
-  attempts = 0
   max_attempts = 3
   no_more_guesses = false
   animal = Animal.new
@@ -18,9 +17,7 @@ def run_trivia
     question_answer = puts profile
 
     right_answer = animal.name_from_index(index)
-
-    puts right_answer
-
+    attempts = 0
     while answer.downcase != right_answer and !no_more_guesses
       if attempts < max_attempts
         puts 'Who am I?'
@@ -41,9 +38,9 @@ def run_trivia
     next_question = prompt.yes?('Ready for the next question?')
     if next_question
       index += 1
-      attempts = 0
     else
-      puts 'main menu'
+      require_relative 'main'
+      main_menu
     end
   end
 end
