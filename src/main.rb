@@ -25,7 +25,7 @@ def main_menu
     file = File.open('help.txt')
     puts file.read
   when 5
-    puts "Seeya next time! Thanks for playing!"
+    puts 'Seeya next time! Thanks for playing!'
     exit 0
   end
 end

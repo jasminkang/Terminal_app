@@ -1,12 +1,15 @@
-Help document
+HELP!!
 
-How to set up
+Guess who? Animals is an educational game to help clear up some common misconceptions about often misunderstood animals. After the game you will (hopefully) leave with some new understanding about not-so-scary animals.
 
-Requirements
+How to set up and installation
+    If you are already here, you are probably ready to start playing! For more information refer to <https://github.com/jasminkang/Terminal_app>
+
 
 Play modes:
+    * Facts: Maybe just opinions? Displays a list of 20 animals to display their 'about me' profiles.
+    * Trivia: Displays an 'about me' animal profile and you have three guesses to name the correct animal based on the profile.
+    * Quiz: Test yourself! This quiz has no answers, only questions! Displays 'about me' profile and you can choose via multiple choice which is the right animal. Complete the quiz to see your score!
 
 
-
-
-to play, type in 'xxxxxxx'
+All done? to start playing, type in 'ruby start.rb play'
