@@ -5,11 +5,12 @@ require 'json'
 main_menu_header
 
 def main_menu
+
   prompt = TTY::Prompt.new
 
   options = { Facts: 1, Trivia: 2, Quiz: 3, HELP: 4, EXIT: 5 }
 
-  game_choice = prompt.select('Hello! What would you like to do?', options)
+  game_choice = prompt.select('What would you like to do?'.magenta, options)
 
   case game_choice
   when 1
@@ -25,7 +26,7 @@ def main_menu
     file = File.open('help.txt')
     puts file.read
   when 5
-    puts 'Seeya next time! Thanks for playing!'
+    puts 'See you next time, Thanks for playing!'
     exit 0
   end
 end

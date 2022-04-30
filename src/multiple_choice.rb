@@ -14,7 +14,7 @@ def run_multi_choice
 
     choices = data_hash['animals'][index]['answerchoices'][0]
 
-    question_answer = prompt.select('Who am I?' + animal.profile_from_index(index).to_s, choices)
+    question_answer = prompt.select('Who am I? '.red + animal.profile_from_index(index).to_s, choices)
 
     answer_point = question_answer.to_i == index
 
@@ -28,7 +28,7 @@ def run_multi_choice
 
   end
 
-  puts ('You got ' + score.to_s + '/20').light_magenta
+  puts ('You got ' + score.to_s + '/20').yellow
 
   require_relative 'main'
   main_menu

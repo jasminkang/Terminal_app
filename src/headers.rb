@@ -14,14 +14,14 @@ end
 def header_trivia
   a = Artii::Base.new
   puts HEADER_LINE
-  puts 'Three try trivia'.light_yellow
+  puts 'Three try trivia'.light_magenta
   puts HEADER_LINE
 end
 
 def header_quiz
   a = Artii::Base.new
   puts HEADER_LINE
-  puts '20 question quiz'.light_cyan
+  puts '20 question quiz'.light_magenta
   puts HEADER_LINE
 end
 

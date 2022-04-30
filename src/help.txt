@@ -12,4 +12,4 @@ Play modes:
     * Quiz: Test yourself! This quiz has no answers, only questions! Displays 'about me' profile and you can choose via multiple choice which is the right animal. Complete the quiz to see your score!
 
 
-All done? to start playing, type in 'ruby start.rb play'
+All done? to start playing, type in 'ruby start.rb'
