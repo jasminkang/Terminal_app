@@ -1,15 +1,3 @@
-# class Factorial
-#     def factorial_of(n)
-#         (1..n).inject(:*)
-# end
-# end
-
-# class Calculator
-#     def add(a,b)
-#         a + b
-#     end
-# end
-
 require 'json'
 
 def data_hash

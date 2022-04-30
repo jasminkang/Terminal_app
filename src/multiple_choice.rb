@@ -1,5 +1,6 @@
 require 'tty-prompt'
 require_relative './lib/animal_class'
+require 'colorize'
 
 def run_multi_choice
   prompt = TTY::Prompt.new
@@ -27,7 +28,7 @@ def run_multi_choice
 
   end
 
-  puts 'You got ' + score.to_s + '/20'
+  puts ('You got ' + score.to_s + '/20').light_magenta
 
   require_relative 'main'
   main_menu
