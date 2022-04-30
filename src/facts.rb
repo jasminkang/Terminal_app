@@ -1,9 +1,12 @@
 require 'json'
 require 'tty-prompt'
 require_relative './lib/animal_class'
+require_relative './headers'
 
 file = File.read('data.json')
 data_hash = JSON.parse(file)
+
+header_fact
 
 def run_factsheet
   prompt = TTY::Prompt.new
@@ -23,7 +26,7 @@ def run_factsheet
 
   puts info_given_index
 
-      next_question = prompt.yes?('Want another fact?')
+  next_question = prompt.yes?('Want another fact?')
 
   if next_question
     run_factsheet
