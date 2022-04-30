@@ -33,7 +33,8 @@ def run_trivia
 
     if no_more_guesses and answer != right_answer
       print 'You lose.'
-    else answer == right_answer
+    else
+      answer == right_answer
       print 'Well done!'
     end
 
