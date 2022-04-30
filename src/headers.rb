@@ -5,21 +5,23 @@ HEADER_LINE = '-----------------------------------------------------------------
 HEADER_LENGTH = HEADER_LINE.length
 
 def header_fact
-    a = Artii::Base.new
+  a = Artii::Base.new
   puts HEADER_LINE
-  puts "Learn about me".light_magenta
+  puts 'Learn about me'.light_magenta
   puts HEADER_LINE
 end
+
 def header_trivia
-    a = Artii::Base.new
+  a = Artii::Base.new
   puts HEADER_LINE
-  puts "Three try trivia".light_yellow
+  puts 'Three try trivia'.light_yellow
   puts HEADER_LINE
 end
+
 def header_quiz
-    a = Artii::Base.new
+  a = Artii::Base.new
   puts HEADER_LINE
-  puts "20 question quiz".light_cyan
+  puts '20 question quiz'.light_cyan
   puts HEADER_LINE
 end
 

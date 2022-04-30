@@ -3,45 +3,51 @@ require_relative './lib/animal_class'
 
 def run_trivia
   prompt = TTY::Prompt.new
-  index = 0
+
   max_attempts = 3
   no_more_guesses = false
   animal = Animal.new
+  attempts = 0
+  index = 0
+  answer = ''
 
   while index < 20
 
-    answer = ''
+    right_answer = animal.name_from_index(index)
 
     profile = animal.profile_from_index(index)
 
     question_answer = puts profile
 
-    right_answer = animal.name_from_index(index)
-    attempts = 0
-    while answer.downcase != right_answer and !no_more_guesses
+    while !no_more_guesses and answer != right_answer
       if attempts < max_attempts
         puts 'Who am I?'
         answer = gets.chomp.downcase
         attempts += 1
       else
-        no_more_guesses = true
+        no_more_guesses
         print 'You are out of guesses!'
+        break
       end
     end
 
-    if no_more_guesses
+    if no_more_guesses and answer != right_answer
       print 'You lose.'
-    else
+    else answer == right_answer
       print 'Well done!'
     end
 
     next_question = prompt.yes?('Ready for the next question?')
     if next_question
+      attempts = 0
       index += 1
+      no_more_guesses = false
+      answer = ''
     else
       require_relative 'main'
       main_menu
     end
+
   end
 end
 

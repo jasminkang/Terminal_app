@@ -14,7 +14,7 @@ def main_menu
   when 1
     require_relative 'facts'
     run_factsheet
-    
+
   when 2
     require_relative 'trivia'
     run_trivia
@@ -26,6 +26,3 @@ def main_menu
 end
 
 main_menu
-
-
-
