@@ -35,7 +35,7 @@ def run_multi_choice
 
   end
   system 'clear'
-  puts ('You got ' + score.to_s + '/20').yellow
+  puts ('You got ' + score.to_s + '/20!').yellow
 
   try_again = prompt.yes?('Want to try again?')
 

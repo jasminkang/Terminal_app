@@ -2,13 +2,12 @@ require 'json'
 require_relative './lib/classes_methods'
 require_relative 'headers'
 
-file = File.read('data.json')
-data_hash = JSON.parse(file)
-
 system 'clear'
 
 def run_factsheet
   header_fact
+
+  animal = Animal.new
 
   prompt = TTY::Prompt.new
 
@@ -19,13 +18,9 @@ def run_factsheet
 
   index = question_answer.to_i
 
-  name_given_index = data_hash['animals'][index]['name']
+  puts ('About me a ' + animal.name_from_index(index)).yellow
 
-  info_given_index = data_hash['animals'][index]['description']
-
-  puts ('About me a ' + name_given_index.to_s).yellow
-
-  puts info_given_index
+  puts animal.profile_from_index(index)
 
   next_question = prompt.yes?('Want another fact?'.green)
 

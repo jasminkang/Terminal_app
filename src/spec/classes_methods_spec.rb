@@ -1,36 +1,7 @@
-# describe Animal do
-#     describe animal_profile do
-#         it "returns the profil for the selected animal"
-#         animal_profile = Animal.new
-#         expect(animal_profile("cat")).to eql("cat display")
-#         end
-#     end
-# end
-
 require 'rspec'
 require_relative '../lib/classes_methods'
 require 'json'
 
-# describe Factorial do
-#     it "finds the factorial of 5" do
-#         calculator = Factorial.new
-#         expect(calculator.factorial_of(5)).to eq (120)
-#     end
-# end
-
-# describe Calculator do
-#     let(:calculator) {Calculator.new}
-#     it "adds two numbers" do
-#         expect(calculator.add(2,3)).to eq(5)
-#     end
-#     it "adds two  and two" do
-#         expect(calculator.add(2,2)).to eq(4)
-#     end
-
-# end
-
-file = File.read('data.json')
-data_hash = JSON.parse(file)
 
 describe Animal do
   let(:animal) { Animal.new }
