@@ -28,7 +28,7 @@ Implementation plan was developed using Trello <https://trello.com/b/h8TTQlez/ap
 ![plot](docs/Screen%20Shot%202022-04-30.png)
 ![plot](docs/Screen%20Shot%202022-05-01.png)
 
-Perhaps more effective for me personally, is when planning was done at various stages on my study wall in greater detail [plot](docs/sticky_notes.jpg)
+That said, more effective for me personally, is when planning was done at various stages on my study wall in greater detail [plot](docs/sticky_notes.jpg)
 
 Intial skeleton planning for each feature in this flowchart:
 ![plot](docs/Blueprint%20app.png). Each shape represents one element of the checklist to be completed for each aspect (plus with well as interacting with the external JSON file being a baseline requirement for all features)
@@ -43,23 +43,24 @@ Each feature has an option to go back to the menu in between questions.
 
 STEP 1
 -Install ruby. Recommend using rbenv or similar to manage versions.
--for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
+    
+    -for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
 
     -for windows: <https://phoenixnap.com/kb/install-ruby-ubuntu>
 
     -for linux: <https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/install_language_runtime.html>
 
 STEP 2
--Clone the repository. Guide here.
+-Clone the repository. Guide here.<https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
 
 STEP 3
 -Open the terminal and navigate to the directory where the game was cloned. Navigate into the ‘/src’ folder in the relevant directory.
 
 STEP 5
--From inside the /src folder copy the relevant line below into your terminal:
+-From inside the /src folder copy the relevant line below into your terminal (top to play straight away, bottom to see how to play):
 
-    -To start playing: bash start_game.sh
-    -To learn how to play: bash start_game_help.sh
+    -bash start_game.sh
+    -bash start_game_help.sh
 
 ## Dependencies and system requirements
 
