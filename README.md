@@ -43,7 +43,7 @@ Each feature has an option to go back to the menu in between questions.
 
 STEP 1
 -Install ruby. Recommend using rbenv or similar to manage versions.
-    -for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
+-for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
 
     -for windows: <https://phoenixnap.com/kb/install-ruby-ubuntu>
 
