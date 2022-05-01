@@ -9,12 +9,15 @@
 Guess who? Animals is a ruby application educational game about often misunderstood animals. It has 3 modes to either learn, trivia, or quiz and has been developed for assessment at coder academy.
 
 FEATURE 1:Learn about me (facts)
+
 Displays the list of (20) animals stored in the game. User picks an animal, and then a ‘about me’ pops up for the chosen animal. User can then exit back to the main menu (with links to the 3 features) or Learn about another animal.
 
 FEATURE 2:Guess who trivia
+
 Displays an ‘about me’ profile for an animal, the user has 3 guesses to guess which animal it is. If they guess the right animal in 3 guesses, they are prompted to move onto another trivia question or exit to the main menu. If they don’t guess the animal within 3 guesses, the user is prompted to move onto another trivia question or exit back to the main menu.
 
 FEATURE 3:20 questions quiz
+
 Who am I? Displays an ‘about me’ profile for an animal with multiple choice answers to animal it is about. User selects an answer and then next question appears. All animal ‘about me’ profiles are iterated through and then the user can see their score out of 20. The only feedback the user has is their final score.
 
 ## Planning and implementation
@@ -39,24 +42,24 @@ Each feature has an option to go back to the menu in between questions.
 ## Installation and how to use
 
 STEP 1
-\*Install ruby. Recommend using rbenv or similar to manage versions.
-\*\* for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
+-Install ruby. Recommend using rbenv or similar to manage versions.
+-for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
 
-\*\* for windows: <https://phoenixnap.com/kb/install-ruby-ubuntu>
+    -for windows: <https://phoenixnap.com/kb/install-ruby-ubuntu>
 
-\*\* for linux: <https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/install_language_runtime.html>
+    -for linux: <https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/install_language_runtime.html>
 
 STEP 2
-\*Clone the repository. Guide here.
+-Clone the repository. Guide here.
 
 STEP 3
-\*Open the terminal and navigate to the directory where the game was cloned. Navigate into the ‘/src’ folder in the relevant directory.
+-Open the terminal and navigate to the directory where the game was cloned. Navigate into the ‘/src’ folder in the relevant directory.
 
 STEP 5
-\*From inside the /src folder copy the relevant line below into your terminal:
+-From inside the /src folder copy the relevant line below into your terminal:
 
-**To start playing: bash start_game.sh
-**To learn how to play: bash start_game_help.sh
+    -To start playing: bash start_game.sh
+    -To learn how to play: bash start_game_help.sh
 
 ## Dependencies and system requirements
 
