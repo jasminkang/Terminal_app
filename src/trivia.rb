@@ -1,10 +1,12 @@
 require 'tty-prompt'
 require_relative './lib/animal_class'
-require 'colorize'
+require_relative 'headers'
 
-header_trivia
+system 'clear'
 
 def run_trivia
+  header_trivia
+
   prompt = TTY::Prompt.new
 
   max_attempts = 3
@@ -29,21 +31,19 @@ def run_trivia
         attempts += 1
       else
         no_more_guesses
-        print 'You are out of guesses! '
+        print 'You are out of guesses! '.magenta
         break
       end
     end
 
     if answer == right_answer
-      print 'Well done! '
+      print 'You got it, well done! '.green
     else
       answer != right_answer
-      print 'You lose! '
+      print 'You lose! '.red
     end
 
-    next_question = prompt.yes?('Ready for the next question?')
-
-    system 'clear'
+    next_question = prompt.yes?('Ready for the next question?'.magenta)
 
     if next_question
       attempts = 0
@@ -51,6 +51,7 @@ def run_trivia
       no_more_guesses = false
       answer = ''
     else
+      system 'clear'
       require_relative 'main'
       main_menu
     end

@@ -1,9 +1,18 @@
 require 'artii'
 require 'colorize'
+require 'json'
+require 'TTY'
 
 HEADER_LINE = '------------------------------------------------------------------------------'.light_green
 HEADER_LENGTH = HEADER_LINE.length
 
+def main_menu_header
+  a = Artii::Base.new
+  puts HEADER_LINE
+  puts a.asciify('          Guess Who ?')
+  puts a.asciify('                 Animals !')
+  puts HEADER_LINE
+end
 
 def header_fact
   a = Artii::Base.new
@@ -23,13 +32,5 @@ def header_quiz
   a = Artii::Base.new
   puts HEADER_LINE
   puts a.asciify('20 Questions Quiz!')
-  puts HEADER_LINE
-end
-
-def main_menu_header
-  a = Artii::Base.new
-  puts HEADER_LINE
-  puts a.asciify('             Guess Who ?')
-  puts a.asciify('                    Animals !')
   puts HEADER_LINE
 end

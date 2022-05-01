@@ -2,9 +2,10 @@ require 'tty-prompt'
 require_relative 'headers'
 require 'json'
 
-main_menu_header
-
 def main_menu
+  system 'clear'
+  main_menu_header
+
   prompt = TTY::Prompt.new
 
   options = { Facts: 1, Trivia: 2, Quiz: 3, HELP: 4, EXIT: 5 }
@@ -12,7 +13,7 @@ def main_menu
   game_choice = prompt.select('What would you like to do?'.magenta, options)
 
   system 'clear'
-  
+
   case game_choice
   when 1
     require_relative 'facts'
@@ -27,10 +28,9 @@ def main_menu
     file = File.open('help.txt')
     puts file.read
   when 5
-    puts 'See you next time, Thanks for playing!'
+    puts 'See you next time, Thanks for playing!'.green
     exit 0
   end
-  
 end
 
 main_menu
