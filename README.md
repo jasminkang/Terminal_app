@@ -1,8 +1,5 @@
 # Jasmin Kang Terminal Application
 
-## GitHub Repo
-
-<https://github.com/jasminkang/Terminal_app>
 
 ## Description of game and features
 
