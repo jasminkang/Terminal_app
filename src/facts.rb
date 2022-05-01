@@ -1,5 +1,5 @@
 require 'json'
-require_relative './lib/animal_class'
+require_relative './lib/classes_methods'
 require_relative 'headers'
 
 file = File.read('data.json')

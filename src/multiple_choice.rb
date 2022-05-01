@@ -1,5 +1,5 @@
 require 'tty-prompt'
-require_relative './lib/animal_class'
+require_relative './lib/classes_methods'
 require_relative 'headers'
 
 system 'clear'

@@ -8,7 +8,7 @@
 # end
 
 require 'rspec'
-require_relative '../lib/animal_class'
+require_relative '../lib/classes_methods'
 require 'json'
 
 # describe Factorial do
