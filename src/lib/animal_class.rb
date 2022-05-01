@@ -3,6 +3,8 @@ require 'json'
 def data_hash
   file = File.read('data.json')
   data_hash = JSON.parse(file)
+rescue Errno::ENOENT
+  puts "ERROR file not found or incorrect system specifications."
 end
 
 class Animal
