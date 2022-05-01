@@ -43,7 +43,8 @@ Each feature has an option to go back to the menu in between questions.
 
 STEP 1
 -Install ruby. Recommend using rbenv or similar to manage versions.
--for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
+    
+    -for mac: <https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos>
 
     -for windows: <https://phoenixnap.com/kb/install-ruby-ubuntu>
 
@@ -56,10 +57,10 @@ STEP 3
 -Open the terminal and navigate to the directory where the game was cloned. Navigate into the ‘/src’ folder in the relevant directory.
 
 STEP 5
--From inside the /src folder copy the relevant line below into your terminal:
+-From inside the /src folder copy the relevant line below into your terminal (top to play straight away, bottom to see how to play):
 
-    -To start playing: bash start_game.sh
-    -To learn how to play: bash start_game_help.sh
+    -bash start_game.sh
+    -bash start_game_help.sh
 
 ## Dependencies and system requirements
 
