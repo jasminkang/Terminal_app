@@ -1,7 +1,6 @@
 require 'artii'
 require 'colorize'
 require 'json'
-require 'TTY'
 
 HEADER_LINE = '------------------------------------------------------------------------------'.light_green
 HEADER_LENGTH = HEADER_LINE.length

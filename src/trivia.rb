@@ -5,8 +5,6 @@ require_relative 'headers'
 system 'clear'
 
 def run_trivia
-  header_trivia
-
   prompt = TTY::Prompt.new
 
   max_attempts = 3
@@ -17,6 +15,8 @@ def run_trivia
   answer = ''
 
   while index < 20
+
+    header_trivia
 
     right_answer = animal.name_from_index(index)
 
@@ -51,10 +51,10 @@ def run_trivia
       no_more_guesses = false
       answer = ''
     else
-      system 'clear'
       require_relative 'main'
       main_menu
     end
+    system 'clear'
 
   end
 end

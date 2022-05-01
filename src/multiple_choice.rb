@@ -7,8 +7,6 @@ system 'clear'
 header_quiz
 
 def run_multi_choice
-  prompt = TTY::Prompt.new
-
   index = 0
   score = 0
   question_n = index + 1
@@ -16,6 +14,7 @@ def run_multi_choice
   animal = Animal.new
 
   while index < 20
+    prompt = TTY::Prompt.new
 
     choices = data_hash['animals'][index]['answerchoices'][0]
 

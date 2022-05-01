@@ -4,6 +4,7 @@ require 'json'
 
 def main_menu
   system 'clear'
+
   main_menu_header
 
   prompt = TTY::Prompt.new

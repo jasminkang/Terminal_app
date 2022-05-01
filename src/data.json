@@ -7,17 +7,17 @@
     },
     {
       "name": "shark",
-      "description": "People think I want to eat them, but they’re a bit too hard to digest for my liking. The flu is more dangerous to you humans! Some of us are even vegetarian. Some of us (zebra types) can have virgin births. We have been around since a time before dinosaurs. Like many animals, I only go near humans because you won’t get out of my (way bigger than yours) home.",
+      "description": "People think I want to eat them, but they are a bit too hard to digest for my liking. The flu is more dangerous to you humans! Some of us are even vegetarian. Some of us (zebra types) can have virgin births. We have been around since a time before dinosaurs. Like many animals, I only go near humans because you keep ruining my (way bigger than yours) home.",
       "answerchoices": [{ "piranha": "0", "shark": "1", "wolf": "0" }]
     },
     {
       "name": "spider",
-      "description": "We aren’t always nearby, and despite popular belief we do not crawl into your mouths at night. People are scared of us, but we are (rightly) much more scared of you than you. Provoke me and maybe you’ll see my fangs, but most likely I just run away. Of over 46,000 of my cousins, only about 30 of us are of danger to you. Our ‘blood’ (which is technically hemolymph) is a beautiful green/blue colour.",
+      "description": "We aren't always nearby, and despite popular belief we do not crawl into your mouths at night. People are scared of us, but we are (rightly) much more scared of you than you. Provoke me and maybe you'll see my fangs, but most likely I just run away. Of over 46,000 of my cousins, only about 30 of us are of danger to you. Our blood (which is technically not blood) is a beautiful green/blue colour.",
       "answerchoices": [{ "cockroach": "0", "rat": "0", "spider": "2" }]
     },
     {
       "name": "snake",
-      "description": "Evolution has taught your babies to be afraid of us, but generally we are no harm at all (just don’t let your baby play with us). Our babies come from eggs we lay or straight from our bodies. My venom has created life-saving drugs, AND I am great rodent pest control. You respect my space, and I will most likely respect yours.",
+      "description": "Evolution has taught your babies to be afraid of us, but generally we are no harm at all (just don't let your baby play with us). Our babies come from eggs we lay or straight from our bodies. My venom has created life-saving drugs, AND I am great rodent pest control. You respect my space, and I will most likely respect yours.",
       "answerchoices": [{ "spider": "0", "snake": "3", "vulture": "0" }]
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "hyena",
-      "description": "Our famous cackle gives us a bad reputation. But don’t you like to laugh with your friends?",
+      "description": "Just like our friends, the vulture, we are excellent scavengers and help with waste. Our famous cackle gives us a bad reputation. But maybe you should stop seeing us through your human lens! The sounds we make are complex communications with each other. Our cackles can travel far when we're trying to communicate! Our group leader (of clans up to 100!) is always a woman, which if you ask me is something humans have wrong.",
       "answerchoices": [{ "cat": "0", "vulture": "0", "hyena": "8" }]
     },
     {
       "name": "pig",
-      "description": "Known for being dirty, we are actually very clean – we would never poop where we eat or live. You judge us because we use mud to cool ourselves down even though it is more eco friendly than aircon. We are playful, friendly, sensitive and known for our intelligence which is higher than most human 3 year olds. We are social and can tell humans we have met apart. We have even been known to save human and other animals lives. We live in a matriarchy with mothers who love us dearly. ",
+      "description": "Known for being dirty, we are actually very clean and we would never poop where we eat or live. You judge us because we use mud to cool ourselves down even though it is more eco friendly than aircon. We are playful, friendly, sensitive and known for our intelligence which is higher than most human 3 year olds. We are social and can tell humans we have met apart. We have even been known to save human and other animals lives. We live in a matriarchy with mothers who love us dearly. ",
       "answerchoices": [{ "pig": "9", "skunk": "0", "rat": "0" }]
     },
     {

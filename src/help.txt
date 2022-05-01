@@ -1,6 +1,6 @@
 
 
-################# HELP ##########################################################
+################# HELP ########################################################
 
 Guess who? Animals is an educational game to help clear up some common misconceptions about often misunderstood animals. After the game you will (hopefully) leave with some new understanding about not-so-scary animals.
 
@@ -16,4 +16,4 @@ Play modes:
 
 To play directly from the terminal:  bash start_game.sh
 
-#################################################################################
+###############################################################################
