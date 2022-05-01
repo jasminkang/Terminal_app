@@ -1,7 +1,7 @@
 require 'json'
 require 'tty-prompt'
 require_relative './lib/animal_class'
-require_relative './headers'
+require_relative 'headers'
 require 'colorize'
 
 file = File.read('data.json')
@@ -30,6 +30,7 @@ def run_factsheet
   next_question = prompt.yes?('Want another fact?'.green)
 
   if next_question
+    system 'clear'
     run_factsheet
   else
     require_relative 'main'

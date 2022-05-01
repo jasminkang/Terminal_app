@@ -1,6 +1,3 @@
-require 'json'
-require 'colorize'
-
 if ARGV[0] == 'help'
   file = File.open('help.txt')
   puts file.read
